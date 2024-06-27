@@ -1,0 +1,200 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+nav .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav .menu li {
+  margin: 0 40px;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav .menu a:hover {
+  color: #007bff;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(./img/Img1111.jpg);
+}
+
+.container p {
+  font-size: 24px;
+  color: gray;
+  font-weight: bold;
+}
+
+.order-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.info-section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-list li {
+  width: 270px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding: 80px 10px 10px; /* Збільшуємо padding-top для розміщення зображення */
+}
+
+.info-list li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.detail::before {
+  background-image: url("./img/antenna\ 1.png");
+}
+
+.punctuality::before {
+  background-image: url("./img/clock\ 1.png");
+}
+
+.planning::before {
+  background-image: url("./img/diagram\ 1.png");
+}
+
+.technology::before {
+  background-image: url("./img/astronaut\ 1.png");
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.img-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.img-list li {
+  margin: 0 10px;
+}
+
+.img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.list-item {
+  text-align: center;
+}
+
+.text-container {
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.footer-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container li {
+  margin-bottom: 10px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #007bff;
+}
+
